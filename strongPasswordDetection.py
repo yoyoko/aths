@@ -35,13 +35,6 @@ def strongPasswordDetection():
     else:
         print("Password should contain a special character")
 
-    #junk testing
-    #print(re.findall(r'[a-zA-Z0-9!@#$%^&*()\-_+=/]{8}', password))
-    #print(re.findall('[a-z]{1,7}', password))
-    #print(re.findall('[A-Z]{1,7}', password))
-    #print(re.findall('[0-9]{1,7}', password))
-    #print(re.findall(r'[!@#$%^&*()\-_+=]{1,7}', password))
-    #print(checker)
 
 # output decision
     if checker >= 5:
